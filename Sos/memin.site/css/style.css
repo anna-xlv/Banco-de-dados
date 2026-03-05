@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Gravitas+One&display=swap');
+
+body {
+    background-image: url("../Imagens/meus.ladosaauuu.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+#usuarioForm {
+    display: grid;
+    background: linear-gradient(rgba(28, 26, 43, 0.671));
+    border-radius: 35px;
+    width: 600px;
+    margin-left: 600px;
+    margin-top: 5px;
+
+    
+}
+
+h1 {
+    color: rgb(248, 219, 243);
+    text-align: center;
+    font-family: "Gravitas One", serif;
+    font-size: 35px;
+}
+
+label {
+    display: block;
+    font-family: "Gravitas One", serif;
+    padding-top: 17px;
+    font-weight: 520;
+    padding-left: 55px;
+    font-size: 20px;
+    color: rgb(248, 219, 243);;
+}
+
+input, select {
+    display: block;
+    border-radius: 20px;
+    border: 2px solid rgb(248, 219, 243);;
+    color: rgba(83, 0, 69, 0.637);
+    padding: 5.4px;
+    width: 450px;
+    margin-left: 67px;
+
+}
+
+button{
+    align-items: center;
+    display: block; 
+    border-radius: 5px;
+    background-color: rgba(248, 219, 243, 0.486);
+    color: rgb(248, 219, 243);
+    border-color:rgb(248, 219, 243);
+    font-family: "Gravitas One", serif;
+    font-size: 25px;
+    margin: auto;
+    padding: 6px;
+}
+
+.botao {
+    margin-top: 40px;
+    width: 400px;
+    margin-bottom: 20px;
+}
+
+button:hover{
+    background-color: rgba(253, 151, 236, 0.418);
+    cursor: pointer;
+}
+
+a:link {
+  text-decoration: none;
+  display: block;
+  align-items: center;
+  font-family: "Gravitas One", serif;
+  margin-top: -15px;
+  font-size: 12px;
+  color: rgba(71, 51, 70, 0.712);
+  
+}
+
+.login{
+    color: rgb(29, 109, 109);
+    margin-left: 14vh;
+    padding-bottom: 14px;
+}
+
+

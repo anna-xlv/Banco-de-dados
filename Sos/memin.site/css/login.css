@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Gravitas+One&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+ body {
+    background-image: url("../Imagens/esquetin.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+ }
+.superbox {
+    align-items: center;
+    margin-right: 500px;
+    margin-left: 500px;
+    margin-top: 300px;
+    padding: 30px;
+    background: rgba(255, 255, 255, 0.062);
+    border-radius: 30px;
+    border: 1px solid rgb(255, 255, 255);
+
+}
+
+#mensagem {
+    color:white;
+}
+
+h2 {
+    text-align: center;
+    font-family: "Gravitas One", serif;
+    font-weight: 100;
+    font-size: 65px;
+    color: rgb(156, 156, 156);
+    -webkit-text-stroke: 1px black;
+}
+
+label {
+    display: block;
+    padding: 10px;
+    padding-top: 20px;
+    font-family: "Gravitas One", serif;
+    font-weight: 520;
+    padding-left: 70px;
+    font-size: 27px;
+    color: rgb(158, 158, 158);
+    -webkit-text-stroke: 1px rgba(0, 0, 0, 0.514);
+}
+
+input{
+    display: block;
+    border-radius: 50px;
+    border: 2px solid rgb(0, 0, 0);
+    padding: 7px;
+    width: 840px;
+}
+
+button{
+    align-items: center;
+    border-radius: 30px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    -webkit-text-stroke: 1px rgba(255, 255, 255, 0.493);
+    border: none;
+    font-family: "Gravitas One", serif;
+    font-size: 20px;
+    display: block; 
+    margin: auto;
+    padding: 10px;
+}
+
+.botao {
+    margin-top: 40px;
+    width: 400px;
+    margin-bottom: 20px;
+}
+
+button:hover{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    -webkit-text-stroke: 1px rgba(0, 0, 0, 0.288);
+    cursor: pointer;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+.cadastre {
+    margin-top: 20px;
+    text-align: center;
+    color: white;
+}
+
+a {
+    color: rgb(0, 0, 0);
+    font-family: "Gravitas One", serif;
+    font-size: 10px;
+    margin-bottom: 20px;
+}
