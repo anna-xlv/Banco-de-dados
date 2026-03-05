@@ -5,6 +5,7 @@ import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 import jakarta.persistence.Table;
+import jakarta.persistence.Column;
 
 @Entity
 @Table(name = "usuarios")
@@ -14,6 +15,9 @@ public class Usuario {
 @Id()
 @GeneratedValue(strategy = GenerationType.IDENTITY)
 private Long id;
+
+@Column(columnDefinition = "LONGTEXT")
+private String foto;
 
 private String nome;
 private String email;
@@ -95,6 +99,12 @@ public String getEstado() {
 public void setEstado(String estado) {
 	this.estado = estado;
 }
+	public String getFoto() {
+		return foto;
+	}
+	public void setFoto(String foto) {
+		this.foto = foto;
+	}
 
 
 }

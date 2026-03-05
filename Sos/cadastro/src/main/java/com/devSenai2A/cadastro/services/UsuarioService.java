@@ -35,7 +35,6 @@ public class UsuarioService {
             return null;
         }
 
-
     	usuario.setNome(dados.getNome());
     	usuario.setEmail(dados.getEmail());
     	usuario.setSenha(dados.getSenha());
@@ -46,8 +45,10 @@ public class UsuarioService {
     	usuario.setCep(dados.getCep());
     	usuario.setCidade(dados.getCidade());
     	usuario.setEstado(dados.getEstado());
+		usuario.setFoto(dados.getFoto());
 
     	return repository.save(usuario);
+
     	}
 
     	public boolean deletar(Long id) {
